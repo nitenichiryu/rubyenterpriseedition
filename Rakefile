@@ -1,3 +1,5 @@
+require 'distro/tasks'
+
 desc "Create a patch for the GC changes"
 task :make_patch do
 	vendor_branch = ENV['vendor_branch'] || 'vendor/version_1_8_6_114'
