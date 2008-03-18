@@ -1,3 +1,5 @@
+distro/rubygems*.tgz
+emm-ruby-*.tar.gz
 .ext
 .installed.list
 *.o
