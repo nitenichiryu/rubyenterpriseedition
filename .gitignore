@@ -1,5 +1,4 @@
 distro/rubygems*.tgz
-!distro/runtime/*/ruby
 emm-ruby-*.tar.gz
 .ext
 .installed.list
@@ -35,7 +34,7 @@ parse.c
 prelude.c
 rbconfig.rb
 revision.h
-ruby
+/ruby
 transdb.h
 vm.inc
 vmtc.inc
